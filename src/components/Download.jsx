@@ -15,7 +15,17 @@ export const Download = () => {
           </p>
         </div>
 
-        <button className={`${styles.btnPrimary}`}>Source Code</button>
+        <button
+          className={`${styles.btnPrimary}`}
+          onClick={() =>
+            window.open(
+              "https://github.com/FungaiPfende/nft-marketplace-showcase",
+              "_blank"
+            )
+          }
+        >
+          Source Code
+        </button>
 
         <div className={`${styles.flexCenter}`}>
           <img
