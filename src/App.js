@@ -40,7 +40,16 @@ const App = () => {
 
       <div className="bg-primary px-4 py-2 flex-col justify-center items-center text-center banner04">
         <p className={`${styles.pText} ${styles.whiteText}`}>
-          Made with 🧠 by <span className="font-bold">Fungai Pfende</span>.
+          Made with 🧠 by{" "}
+          <a
+            href="https://www.fungaip.co.zw/"
+            target="_blank"
+            rel="noreferrer"
+            className="font-bold hover:underline"
+          >
+            Fungai Pfende
+          </a>
+          .
         </p>
       </div>
     </>
