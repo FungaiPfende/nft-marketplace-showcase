@@ -32,7 +32,8 @@ export const SectionWrapper = ({
           className={`
             ${styles.descDiv}
             ${reverse ? " fadeRightMini" : " fadeLeftMini"}
-            ${reverse ? styles.textRight : styles.textLeft}
+            //remove the below line to left align all text
+            ${reverse ? styles.textRight : styles.textLeft} 
           `}
         >
           <h1
