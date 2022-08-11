@@ -20,7 +20,7 @@ export const Features = () => {
           </h1>
           <p className={`${styles.pText} ${styles.whiteText}`}>
             ProNef has been developed using a cross-platform technology, React
-            Native
+            Native.
           </p>
         </div>
 

@@ -11,7 +11,7 @@ export const Download = () => {
             Download the Source Code
           </h1>
           <p className={`${styles.pText} ${styles.blackText}`}>
-            Get the full source code on Github
+            Get the full source code on Github.
           </p>
         </div>
 
